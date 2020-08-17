@@ -1,8 +1,13 @@
 """
 Setup all characters
 """
+import pygame as pg
+
+
 class CreatureStateMachine:
-    def
+    def __init__(self):
+        self.state = ""
+
 
 class BaseCharacter(pg.sprite.Sprite):
     def __init__(self, image):
